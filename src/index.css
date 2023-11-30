@@ -25,20 +25,20 @@ code {
 }
 
 .wrapper2{
-  
+
 }
 
 .grid1{
   display: grid;
   grid-template-columns: 54px repeat(2, 54px);
-  
+
   justify-content: center;
 }
 
 .grid2{
   display: grid;
   grid-template-columns: 54px repeat(6, 54px);
-  
+
 }
 
 .para{
@@ -63,12 +63,12 @@ code {
 }
 
 .deadblock{
-  background-color: rgb(150, 146, 146);
-  border-top-right-radius: 60px;
+  background-color: grey;
   padding: 0px;
   color: white;
   margin: 1px;
   width: 50px;
+  border-radius: 4px;
   height: 50px;
 }
 
@@ -76,29 +76,4 @@ code {
   display: flex;
   justify-content: center;
   width: 100%;
-}
-
-.white{
-  background-color: white;
-  color: white;
-}
-
-.darkblock{
-  background-color: rgb(104, 100, 100);
-  padding: 0px;
-  color: white;
-  margin: 1px;
-  width: 50px;
-  height: 50px;
-  border-radius: 4px;
-}
-
-.block27{
-  background-color: rgb(104, 100, 100);
-  border-bottom-right-radius: 60px;
-  padding: 0px;
-  color: white;
-  margin: 1px;
-  width: 50px;
-  height: 50px;
 }
